@@ -1,0 +1,26 @@
+{
+    "require": {
+        "topthink/think-orm": "^1.2"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Twig_" : "twig/lib/"
+        },
+        "psr-4" : {
+            "Twig\\" : "twig/src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}

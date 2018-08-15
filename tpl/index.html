@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>数据字典</title>
+</head>
+<body>
+	<table>
+		{% for item in tb %}
+            <tr>
+				<td>{{item.table_name}}</td>
+				<td>{{item.table_comment}}</td>
+			</tr>
+			{% for item2 in item.table_fields %}
+	            <tr>
+					<td>{{item2.field}}</td>
+					<td>{{item2.comment}}</td>
+				</tr>
+	        {% endfor %}
+        {% endfor %}
+	</table>
+</body>
+</html>
