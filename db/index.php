@@ -65,7 +65,7 @@
 
     $loader = new Twig_Loader_Filesystem('../tpl');
     $twig = new Twig_Environment($loader, array(
-        'cache' => '../tpl/cache',
+        'cache' => '../cache',
     ));
     $template = $twig->load('index.html');
     echo $template->render(array('tb' => $tb));

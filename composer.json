@@ -1,14 +1,10 @@
 {
     "require": {
-        "topthink/think-orm": "^1.2"
+        "topthink/think-orm": "^1.2",
+        "twig/twig":"^2.0"
     },
     "autoload": {
-        "psr-0" : {
-            "Twig_" : "twig/lib/"
-        },
-        "psr-4" : {
-            "Twig\\" : "twig/src/"
-        }
+
     },
     "config": {
         "preferred-install": "dist",
