@@ -1,7 +1,11 @@
 {
     "require": {
         "topthink/think-orm": "^1.2",
-        "twig/twig":"^2.0"
+        "twig/twig":"^2.0",
+
+        "endroid/qrcode": "2.*",
+        "guzzlehttp/guzzle": "6.*",
+        "psr/log": "^1.0.1"
     },
     "autoload": {
 
