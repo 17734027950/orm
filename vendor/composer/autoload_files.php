@@ -12,5 +12,6 @@ return array(
     '626dcc41390ebdaa619faa02d99943b0' => $vendorDir . '/khanamiryan/qrcode-detector-decoder/lib/common/customFunctions.php',
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
+    'f084d01b0a599f67676cffef638aa95b' => $vendorDir . '/smarty/smarty/libs/bootstrap.php',
     '33197a0023ced5fbf8f861d1c4ca048d' => $vendorDir . '/topthink/think-orm/src/config.php',
 );
